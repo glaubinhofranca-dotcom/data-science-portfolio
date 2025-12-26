@@ -1,0 +1,16 @@
+Equipment_Type,Total_Units,Avg_Failures,Risk_Rate
+Automatic Door,2,3.0,0.0
+Boiler,3,2.0,0.3333333333333333
+Dryer,4,0.75,0.0
+EV Charger,2,0.5,0.5
+Electronic Locker,120,0.6666666666666666,0.19166666666666668
+Elevator,2,0.0,0.0
+Fire Pit,1,0.0,1.0
+Gas Generator,1,1.0,0.0
+Grill,2,0.0,0.5
+HVAC,100,0.89,0.18
+Laundry Machine,4,0.0,0.25
+Pool Heater,1,4.0,1.0
+Pool Pump,3,0.3333333333333333,0.3333333333333333
+Pool Room HVAC,1,0.0,1.0
+Room HVAC,2,0.5,0.0
