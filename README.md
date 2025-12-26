@@ -9,7 +9,7 @@ Senior Data Professional with expertise in **Generative AI**, **Financial Modeli
 My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pipelines and training machine learning models to building interactive executive dashboards and AI agents.
 
 **Core Competencies:**
-* **Generative AI (RAG):** Building agents that chat with private financial data.
+* **Generative AI (RAG & Agents):** Building systems that chat with private data and execute SQL queries autonomously.
 * **Quant Finance:** Portfolio optimization (Markowitz) and Credit Risk Scorecards.
 * **Operations Research:** Supply Chain optimization and Revenue Management.
 * **Strategic Analytics:** Unit Economics (SaaS) and Geospatial Investment Analysis.
@@ -22,6 +22,7 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
 | **[00. FinBot: AI Financial Analyst (RAG)](./00_GenAI_Financial_Analyst)** | `LangChain` `OpenAI` `Streamlit` | An AI Agent that ingests 10-K financial reports (PDFs) and answers strategic questions using Retrieval-Augmented Generation. |
+| **[14. AI Agent: Text-to-SQL (Talk to Data)](./14_AI_Agent_Text_to_SQL)** | `LangChain` `GPT-3.5` `SQLite` | An autonomous agent that translates plain English questions into SQL queries to analyze database records instantly. |
 
 ### 🏦 Finance & Banking
 | Project | Tech Stack | Description |
