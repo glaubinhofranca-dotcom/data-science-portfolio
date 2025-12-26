@@ -1,7 +1,7 @@
 # 🤖 FinBot: Hybrid AI Financial Analyst (Cloud + Local)
 
 ![Python](https://img.shields.io/badge/Tech-OpenAI%20%7C%20Ollama-green)
-![Models](https://img.shields.io/badge/LLMs-GPT4%20%7C%20TinyLlama-blue)
+![Models](https://img.shields.io/badge/LLMs-GPT3.5%20%7C%20Phi3%20%7C%20TinyLlama-blue)
 ![Frontend](https://img.shields.io/badge/Frontend-Streamlit-red)
 
 ## 📋 Executive Summary
@@ -10,7 +10,7 @@ Financial analysts often struggle to extract insights from dense 10-K reports.
 
 It features a **Hybrid Architecture**:
 1.  **Cloud Mode (Production):** Uses OpenAI (GPT-3.5) for high-precision, client-facing answers.
-2.  **Local Mode (Privacy/Dev):** Uses Ollama (TinyLlama/Phi-3) to run 100% offline and free on local hardware.
+2.  **Local Mode (Privacy/Dev):** Uses Ollama (TinyLlama or Phi-3) to run 100% offline and free on local hardware.
 
 ## ⚙️ Installation
 
@@ -24,10 +24,13 @@ It features a **Hybrid Architecture**:
    ```bash
    streamlit run app.py
 
-3. **Run Local Mode (Ollama):**
-*Best for privacy & zero cost. Requires pulling the model first (`ollama run tinyllama`).*
+3. Run Local Mode - Low Memory (TinyLlama): Best for older laptops (Requires < 2GB RAM). First run: ollama run tinyllama.
    ```bash
    streamlit run app_local.py
+
+4. Run Local Mode - Balanced (Phi-3): Best balance of speed and intelligence (Requires ~4GB RAM). First run: ollama run phi3.
+   ```bash
+   streamlit run app_local2.py
 
 ## 💼 Business Value
 
