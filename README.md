@@ -1,15 +1,15 @@
 # 🚀 Data Science, AI & Analytics Portfolio
 
 ![Status](https://img.shields.io/badge/Status-Open%20to%20Work-success)
-![Focus](https://img.shields.io/badge/Focus-Finance%20%7C%20Health%20%7C%20Tech-blue)
-![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20PowerBI%20%7C%20SQL%20%7C%20LangChain-orange)
+![Focus](https://img.shields.io/badge/Focus-GenAI%20%7C%20Finance%20%7C%20Strategy-blue)
+![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20CrewAI%20%7C%20LangChain-orange)
 
 ## 👨‍💻 About Me
 Senior Data Professional with expertise in **Generative AI**, **Financial Modeling**, and **Business Intelligence**.
-My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pipelines and training machine learning models to building interactive executive dashboards and AI agents.
+My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pipelines and training machine learning models to building **Autonomous AI Agents** and interactive executive dashboards.
 
 **Core Competencies:**
-* **Generative AI (RAG & Agents):** Building systems that chat with private data and execute SQL queries autonomously.
+* **Generative AI (Agentic Workflow):** Building Multi-Agent Systems (CrewAI) and RAG applications.
 * **Quant Finance:** Portfolio optimization (Markowitz) and Credit Risk Scorecards.
 * **Operations Research:** Supply Chain optimization and Revenue Management.
 * **Strategic Analytics:** Unit Economics (SaaS) and Geospatial Investment Analysis.
@@ -18,11 +18,12 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 
 ## 📂 Featured Projects (Index)
 
-### 🤖 Generative AI & Engineering
+### 🤖 Generative AI & Autonomous Agents
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
 | **[00. FinBot: AI Financial Analyst (RAG)](./00_GenAI_Financial_Analyst)** | `LangChain` `OpenAI` `Streamlit` | An AI Agent that ingests 10-K financial reports (PDFs) and answers strategic questions using Retrieval-Augmented Generation. |
 | **[14. AI Agent: Text-to-SQL (Talk to Data)](./14_AI_Agent_Text_to_SQL)** | `LangChain` `GPT-3.5` `SQLite` | An autonomous agent that translates plain English questions into SQL queries to analyze database records instantly. |
+| **[15. Multi-Agent Research Team](./15_Multi_Agent_Market_Research)** | `CrewAI` `Python` `DuckDuckGo` | A squad of 3 autonomous agents (Researcher, Analyst, Writer) that collaborate to perform Equity Research and market analysis. |
 
 ### 🏦 Finance & Banking
 | Project | Tech Stack | Description |
@@ -61,7 +62,7 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 
 ## 🛠️ Tech Stack & Tools
 * **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL.
-* **AI/LLM:** OpenAI API, LangChain, FAISS, HuggingFace, Ollama.
+* **AI/LLM:** OpenAI API, LangChain, CrewAI, FAISS, HuggingFace, Ollama.
 * **Visualization:** Power BI (Advanced DAX), Streamlit, Matplotlib.
 * **Platforms:** Git, Jupyter, VS Code.
 
