@@ -27,30 +27,25 @@ The pipeline consists of 5 main components orchestrated via **Docker**:
 
 ### 1. Infrastructure Setup (Docker)
 Ensure Docker Desktop is running, then spin up the environment (Kafka, Zookeeper, Postgres):
-```bash
-docker-compose up -d
 
----
+    docker-compose up -d
 
 ### 2. Environment Configuration
 Create a virtual environment and install the required Python drivers:
-```Bash
-pip install kafka-python psycopg2-binary requests
 
----
+    pip install kafka-python psycopg2-binary requests
 
 ### 3. Execution Pipeline
 Step A: Start the Producer Open a terminal to start generating market data:
-```Bash
-python producer/producer.py
+
+    python producer/producer.py
 
 Step B: Start the Consumer Open a second terminal to start persisting data to SQL:
-```Bash
-python consumer/consumer.py
-
----
+    
+    python consumer/consumer.py
 
 ### 4. Visualization (Power BI)
+
 Open Power BI Desktop.
 
 Get Data -> PostgreSQL Database.
@@ -61,21 +56,16 @@ Important: Select DirectQuery mode.
 
 Build your dashboard using the crypto_prices table.
 
----
-
 ## 📂 Project Structure
-Plaintext
 
-16_RealTime_Crypto_Monitor/
-├── consumer/
-│   └── consumer.py       # Ingests data from Kafka -> PostgreSQL
-├── producer/
-│   └── producer.py       # Generates data -> Sends to Kafka
-├── docker-compose.yml    # Infrastructure Orchestration (Kafka, ZK, DB)
-├── init.sql              # Database Schema definition
-└── README.md             # Documentation
-
----
+    16_RealTime_Crypto_Monitor/
+    ├── consumer/
+    │   └── consumer.py       # Ingests data from Kafka -> PostgreSQL
+    ├── producer/
+    │   └── producer.py       # Generates data -> Sends to Kafka
+    ├── docker-compose.yml    # Infrastructure Orchestration (Kafka, ZK, DB)
+    ├── init.sql              # Database Schema definition
+    └── README.md             # Documentation
 
 ## 👨‍💻 Author
 Glauber Rocha Senior Data Professional | AI & Engineering

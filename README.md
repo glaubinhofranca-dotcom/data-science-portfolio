@@ -10,8 +10,8 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 
 **Core Competencies:**
 * **Generative AI (Agentic Workflow):** Building Multi-Agent Systems (CrewAI) and RAG applications.
+* **Data Engineering:** Architecting Real-Time Streaming pipelines with Apache Kafka and Docker.
 * **Quant Finance:** Portfolio optimization (Markowitz) and Credit Risk Scorecards.
-* **Operations Research:** Supply Chain optimization and Revenue Management.
 * **Strategic Analytics:** Unit Economics (SaaS) and Geospatial Investment Analysis.
 
 ---
@@ -22,8 +22,13 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
 | **[00. FinBot: AI Financial Analyst (RAG)](./00_GenAI_Financial_Analyst)** | `LangChain` `OpenAI` `Streamlit` | An AI Agent that ingests 10-K financial reports (PDFs) and answers strategic questions using Retrieval-Augmented Generation. |
-| **[14. AI Agent: Text-to-SQL (Talk to Data)](./14_AI_Agent_Text_to_SQL)** | `LangChain` `GPT-3.5` `SQLite` | An autonomous agent that translates plain English questions into SQL queries to analyze database records instantly. |
 | **[15. Multi-Agent Research Team](./15_Multi_Agent_Market_Research)** | `CrewAI` `Python` `DuckDuckGo` | A squad of 3 autonomous agents (Researcher, Analyst, Writer) that collaborate to perform Equity Research and market analysis. |
+| **[14. AI Agent: Text-to-SQL (Talk to Data)](./14_AI_Agent_Text_to_SQL)** | `LangChain` `GPT-3.5` `SQLite` | An autonomous agent that translates plain English questions into SQL queries to analyze database records instantly. |
+
+### 🔧 Data Engineering & Streaming
+| Project | Tech Stack | Description |
+| :--- | :--- | :--- |
+| **[16. Real-Time Crypto Monitor (Kafka)](./16_RealTime_Crypto_Monitor)** | `Kafka` `Docker` `Power BI` | A full-cycle streaming pipeline utilizing Apache Kafka and Docker to ingest, process, and visualize high-frequency crypto trade data in real-time. |
 
 ### 🏦 Finance & Banking
 | Project | Tech Stack | Description |
@@ -63,7 +68,8 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 ## 🛠️ Tech Stack & Tools
 * **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL.
 * **AI/LLM:** OpenAI API, LangChain, CrewAI, FAISS, HuggingFace, Ollama.
-* **Visualization:** Power BI (Advanced DAX), Streamlit, Matplotlib.
+* **Engineering:** Docker, Apache Kafka, PostgreSQL.
+* **Visualization:** Power BI (Advanced DAX, DirectQuery), Streamlit.
 * **Platforms:** Git, Jupyter, VS Code.
 
 ---
