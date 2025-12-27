@@ -28,7 +28,7 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 ### 🔧 Data Engineering & Streaming
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **[16. Real-Time Crypto Monitor (Kafka)](./16_RealTime_Crypto_Monitor)** | `Kafka` `Docker` `Power BI` | A full-cycle streaming pipeline utilizing Apache Kafka and Docker to ingest, process, and visualize high-frequency crypto trade data in real-time. |
+| | **[16. Real-Time Crypto Monitor (Kafka)](./16_RealTime_Crypto_Monitor)** | `Kafka` `Docker` `SQL Views` | A streaming pipeline using **Yahoo Finance API** and **Apache Kafka** to ingest real-time data and render live **Candlestick Charts** via SQL aggregations. |
 
 ### 🏦 Finance & Banking
 | Project | Tech Stack | Description |
