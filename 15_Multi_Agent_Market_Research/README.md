@@ -22,24 +22,24 @@ This project utilizes **CrewAI** to orchestrate a team of 3 specialized AI Agent
 
 ### 1. Environment Setup
 It is recommended to use **Python 3.11** to ensure compatibility with CrewAI dependencies.
-```bash
-conda create -n portfolio_ai python=3.11
-conda activate portfolio_ai
+    ```bash
+    conda create -n portfolio_ai python=3.11
+    conda activate portfolio_ai
 
 ### 2. Install Dependencies
-```Bash
-pip install crewai langchain-openai langchain-community duckduckgo-search
+    ```Bash
+    pip install crewai langchain-openai langchain-community duckduckgo-search
 
 ### 3. Configuration
-Open main.py and set your OpenAI API Key:
-Python
-os.environ["OPENAI_API_KEY"] = "YOUR_KEY_HERE"
+    Open main.py and set your OpenAI API Key:
+    Python
+    os.environ["OPENAI_API_KEY"] = "YOUR_KEY_HERE"
 
 ### 4. Execution
-Run the orchestration script:
-```Bash
-python main.py
-The agents will automatically start the research process for the defined ticker (default: NVDA).
+    Run the orchestration script:
+    ```Bash
+    python main.py
+    The agents will automatically start the research process for the defined ticker (default: NVDA).
 
 📂 Project Structure
 main.py: Contains the Agents, Tasks, and Custom Tool definitions.
