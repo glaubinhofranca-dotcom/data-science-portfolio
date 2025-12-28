@@ -5,11 +5,12 @@
 ![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20CrewAI%20%7C%20LangChain-orange)
 
 ## 👨‍💻 About Me
-Senior Data Professional with expertise in **Generative AI**, **Financial Modeling**, and **Business Intelligence**.
-My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pipelines and training machine learning models to building **Autonomous AI Agents** and interactive executive dashboards.
+Senior Data Professional with expertise in **Generative AI**, **Computer Vision**, and **Financial Modeling**.
+My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time pipelines and training **Object Detection models** to building **Autonomous AI Agents** and interactive executive dashboards.
 
 **Core Competencies:**
 * **Generative AI (Agentic Workflow):** Building Multi-Agent Systems (CrewAI) and RAG applications.
+* **Computer Vision:** Developing automated assessment systems and object detection models using **YOLOv8** and **OpenCV**.
 * **Data Engineering:** Architecting Real-Time Streaming pipelines with Apache Kafka and Docker.
 * **Quant Finance:** Portfolio optimization (Markowitz) and Credit Risk Scorecards.
 * **Strategic Analytics:** Unit Economics (SaaS) and Geospatial Investment Analysis.
@@ -24,6 +25,11 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 | **[00. FinBot: AI Financial Analyst (RAG)](./00_GenAI_Financial_Analyst)** | `LangChain` `OpenAI` `Streamlit` | An AI Agent that ingests 10-K financial reports (PDFs) and answers strategic questions using Retrieval-Augmented Generation. |
 | **[15. Multi-Agent Research Team](./15_Multi_Agent_Market_Research)** | `CrewAI` `Python` `DuckDuckGo` | A squad of 3 autonomous agents (Researcher, Analyst, Writer) that collaborate to perform Equity Research and market analysis. |
 | **[14. AI Agent: Text-to-SQL (Talk to Data)](./14_AI_Agent_Text_to_SQL)** | `LangChain` `GPT-3.5` `SQLite` | An autonomous agent that translates plain English questions into SQL queries to analyze database records instantly. |
+
+### 👁️ Computer Vision & Multimodal AI
+| Project | Tech Stack | Description |
+| :--- | :--- | :--- |
+| **[17. Auto Insurance AI Adjuster](./17_ComputerVision_AutoInsurance)** | `YOLOv8` `OpenCV` `Python` | An automated damage assessment system using Computer Vision to detect vehicle damages and classify severity (Total Loss vs. Repairable) in real-time. |
 
 ### 🔧 Data Engineering & Streaming
 | Project | Tech Stack | Description |
@@ -67,10 +73,10 @@ My portfolio demonstrates a "Full-Stack Data" approach: from engineering data pi
 
 ## 🛠️ Tech Stack & Tools
 * **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL.
-* **AI/LLM:** OpenAI API, LangChain, CrewAI, FAISS, HuggingFace, Ollama.
+* **AI & Computer Vision:** OpenAI API, LangChain, CrewAI, **YOLOv8**, **OpenCV**, PyTorch/TensorFlow.
 * **Engineering:** Docker, Apache Kafka, PostgreSQL.
 * **Visualization:** Power BI (Advanced DAX, DirectQuery), Streamlit.
-* **Platforms:** Git, Jupyter, VS Code.
+* **Platforms:** Git, Jupyter, VS Code, **Google Colab**.
 
 ---
 
