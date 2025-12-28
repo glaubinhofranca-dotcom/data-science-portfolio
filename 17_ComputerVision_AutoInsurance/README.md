@@ -35,13 +35,13 @@ The workflow demonstrates a modern ML Operations (MLOps) approach:
 
 ### 1. Environment Setup
 Install the required computer vision libraries:
-    ```bash
-pip install ultralytics opencv-python matplotlib
+    
+    pip install ultralytics opencv-python matplotlib
 
 ### 2. Deployment
 Ensure the trained model weights (best.pt) are in the root directory. Then, run the inference script on a test image:
-    ```bash
-python app.py
+    
+    python app.py
 
 ### 3. Output
 The system renders the analyzed image with bounding boxes and a severity verdict (e.g., "CRITICAL DAMAGE"):
@@ -49,7 +49,7 @@ The system renders the analyzed image with bounding boxes and a severity verdict
 ![alt text](Figure_1.png)
 
 ## 📂 Project Structure
-    ```Plaintext
+
     17_ComputerVision_AutoInsurance/
     ├── app.py           # Inference Engine (Local Deployment)
     ├── best.pt          # Trained Model Weights (from Cloud)
