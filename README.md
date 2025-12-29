@@ -74,7 +74,7 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 
 ## 🛠️ Tech Stack & Tools
 * **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL.
-* **AI & Computer Vision:** OpenAI API, LangChain, CrewAI, **YOLOv8**, **OpenCV**, PyTorch/TensorFlow.
+* **AI & Computer Vision:** OpenAI API, LangChain, CrewAI, **Llama-3 (Fine-Tuning)**, **YOLOv8**, **OpenCV**, PyTorch/TensorFlow.
 * **Engineering:** Docker, Apache Kafka, PostgreSQL.
 * **Visualization:** Power BI (Advanced DAX, DirectQuery), Streamlit.
 * **Platforms:** Git, Jupyter, VS Code, **Google Colab**.
