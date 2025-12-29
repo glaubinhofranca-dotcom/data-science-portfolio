@@ -25,6 +25,7 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 | **[00. FinBot: AI Financial Analyst (RAG)](./00_GenAI_Financial_Analyst)** | `LangChain` `OpenAI` `Streamlit` | An AI Agent that ingests 10-K financial reports (PDFs) and answers strategic questions using Retrieval-Augmented Generation. |
 | **[15. Multi-Agent Research Team](./15_Multi_Agent_Market_Research)** | `CrewAI` `Python` `DuckDuckGo` | A squad of 3 autonomous agents (Researcher, Analyst, Writer) that collaborate to perform Equity Research and market analysis. |
 | **[14. AI Agent: Text-to-SQL (Talk to Data)](./14_AI_Agent_Text_to_SQL)** | `LangChain` `GPT-3.5` `SQLite` | An autonomous agent that translates plain English questions into SQL queries to analyze database records instantly. |
+| **[18. Financial Risk LLM (Fine-Tune)](./18_Finance_LLM_FineTuning)** | `Llama-3` `Unsloth` `QLoRA` | A specialized AI Analyst created by fine-tuning Llama-3 on financial datasets. Runs locally (offline) and understands advanced credit risk concepts. |
 
 ### 👁️ Computer Vision & Multimodal AI
 | Project | Tech Stack | Description |
