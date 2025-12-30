@@ -27,6 +27,7 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 | **[14. AI Agent: Text-to-SQL (Talk to Data)](./14_AI_Agent_Text_to_SQL)** | `LangChain` `GPT-3.5` `SQLite` | An autonomous agent that translates plain English questions into SQL queries to analyze database records instantly. |
 | **[18. Financial Risk LLM (Fine-Tune)](./18_Finance_LLM_FineTuning)** | `Llama-3` `Unsloth` `QLoRA` | A specialized AI Analyst created by fine-tuning Llama-3 on financial datasets. Runs locally (offline) and understands advanced credit risk concepts. |
 | **[19. Private Financial RAG (Local)](./19_Local_RAG_Privacy)** | `Llama-3` `LangChain` `FAISS` | An air-gapped AI Analyst that runs 100% offline. Ingests private PDFs and answers questions using local embeddings, ensuring zero data leakage. |
+| **[20. Real-Time AI Trader (Kafka)](./20_RealTime_Llama_Kafka)** | `Llama-3` `Kafka` `Docker` | An Event-Driven Architecture that streams crypto news via Kafka and uses Llama-3 to classify market sentiment in real-time. |
 
 ### 👁️ Computer Vision & Multimodal AI
 | Project | Tech Stack | Description |
