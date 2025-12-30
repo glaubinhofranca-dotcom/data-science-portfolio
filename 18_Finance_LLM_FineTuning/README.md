@@ -48,11 +48,9 @@ You can run this project either using **Docker** (Recommended) or a manual Pytho
 Ensures the app runs perfectly on any OS without dependency conflicts.
 
 **1. Build the Image**
-    ```bash
     docker build -t finance-llm-app:v1 .
 
 **2. Run the Container**
-    ```bash
     docker run -p 8501:8501 finance-llm-app:v1
 
 Access the application at: http://localhost:8501
@@ -61,13 +59,11 @@ Access the application at: http://localhost:8501
 Note: Requires Python 3.11 or 3.12 (Python 3.13 is not yet supported by llama-cpp).
 
 **1. Install Dependencies**
-    ```bash
     pip install streamlit
     # Install pre-compiled wheel for CPU (Windows)
     pip install llama-cpp-python==0.2.90 --extra-index-url [https://abetlen.github.io/llama-cpp-python/whl/cpu](https://abetlen.github.io/llama-cpp-python/whl/cpu) --prefer-binary
 
 **2. Run the App** Ensure the model file (finance_model_llama3.gguf) is in the root directory.
-    ```bash
     streamlit run app.py
 
 ## Demo
