@@ -19,6 +19,11 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 
 ## 📂 Featured Projects (Index)
 
+### 🕸️ Graph Data Science & Forensics
+| Project | Tech Stack | Description |
+| :--- | :--- | :--- |
+| **[21. AML Graph Fraud Detector](./21_Graph_Fraud_Detection)** | `NetworkX` `Scikit-Learn` `PyVis` | A forensic tool that uses Graph Topology and Unsupervised Learning to detect money laundering rings (Smurfing) hidden in transaction networks. |
+
 ### 🤖 Generative AI & Autonomous Agents
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |

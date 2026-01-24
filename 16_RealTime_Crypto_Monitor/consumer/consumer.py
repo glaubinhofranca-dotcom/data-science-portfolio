@@ -1,4 +1,4 @@
-import json
+ppimport json
 import psycopg2
 from kafka import KafkaConsumer
 

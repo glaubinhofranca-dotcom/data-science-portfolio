@@ -36,7 +36,7 @@ The algorithm analyzed a diversified basket of assets (`AAPL`, `MSFT`, `GOOGL`, 
 ### The Efficient Frontier
 The model successfully identified the **Global Maximum Sharpe Ratio** portfolio (Red Star):
 
-*(Place your 'efficient_frontier.png' image here)*
+<img width="1200" height="800" alt="efficient_frontier" src="https://github.com/user-attachments/assets/2a2ef81e-9184-4346-84d6-b3b7047013fd" />
 
 ### 🏆 Optimal Allocation Strategy
 Based on the specific iteration visualized in the dashboard, the algorithm suggested a heavy weight on Big Tech combined with Energy/Finance hedges:
