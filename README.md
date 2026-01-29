@@ -19,6 +19,11 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 
 ## 📂 Featured Projects (Index)
 
+### 🏭 Industrial AI / IoT
+| Project | Tech Stack | Description |
+| :--- | :--- | :--- |
+| **[22. NASA Digital Twin Maintenance](./22_NASA_Jet_Engine_Maintenance)** | `Scikit-Learn` `Streamlit` | A predictive maintenance system for Jet Engines that uses AI to forecast mechanical failure (RUL) from sensor telemetry. |
+
 ### 🕸️ Graph Data Science & Forensics
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
