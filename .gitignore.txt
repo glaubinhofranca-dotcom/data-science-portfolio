@@ -1,0 +1,15 @@
+# Ignorar arquivos de sistema e cache
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# Ignorar Ambientes Virtuais (PESADO!)
+venv/
+.venv/
+env/
+
+# Ignorar Chaves e Configurações Locais
+.env
+*.pem

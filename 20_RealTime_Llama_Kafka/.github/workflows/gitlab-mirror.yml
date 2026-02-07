@@ -1,0 +1,20 @@
+name: Mirror to GitLab
+
+on:
+  push:
+    branches: [ main ]             # Roda quando tem push na main
+  delete:
+    branches: [ main ]
+
+jobs:
+  to_gitlab:
+    runs-on: ubuntu-latest
+    steps:                                              
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: yesolutions/mirror-action@master
+        with:
+          REMOTE: "https://gitlab.com/glaubinho.franca-group/data-science-portfolio.git"
+          GIT_USERNAME: ${{ secrets.GITLAB_USERNAME }}
+          GIT_PASSWORD: ${{ secrets.GITLAB_TOKEN }}

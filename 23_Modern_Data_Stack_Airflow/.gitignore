@@ -1,0 +1,19 @@
+# Python & Venv
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.env
+
+# Docker Volumes
+postgres_data/
+minio_data/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
