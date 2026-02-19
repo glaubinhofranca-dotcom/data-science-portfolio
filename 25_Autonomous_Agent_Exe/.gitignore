@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# PyInstaller Build and Executable files
+build/
+dist/
+*.spec
+*.exe
+
+# API Keys and Secrets
+.env
