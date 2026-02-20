@@ -32,6 +32,7 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 ### 🤖 Generative AI & Autonomous Agents
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
+| **[27. Ghost AI: Market Intelligence Agent](./27_Daily_Market_Intelligence_Agent)** | Python GitHub Actions OpenAI API | A serverless, event-driven AI agent that runs daily via GitHub Actions. It fetches financial data and geopolitical news, analyzes market impact using LLMs, and sends an executive briefing via WhatsApp. |
 | **[26. WhatsApp AI Agent (Twilio/FastAPI)](./26_WhatsApp_AI_Bot)** | FastAPI Twilio LangChain OpenAI | A real-time, context-aware AI assistant integrated directly into WhatsApp. Uses FastAPI for webhook handling and LangChain for persistent session memory based on phone numbers. |
 | **[25. Autonomous RAG Agent (.exe)](./25_Autonomous_Agent_Exe)** | LangChain (LCEL) CustomTkinter PyInstaller | A standalone desktop application packaged as an executable. Uses FAISS and OpenAI to let users chat locally with their PDFs, Word docs, and Excel files. |
 | **[00. FinBot: AI Financial Analyst (RAG)](./00_GenAI_Financial_Analyst)** | LangChain OpenAI Streamlit | An AI Agent that ingests 10-K financial reports (PDFs) and answers strategic questions using Retrieval-Augmented Generation. |
