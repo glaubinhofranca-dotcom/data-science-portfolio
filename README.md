@@ -1,4 +1,4 @@
-﻿# 🚀 Data Science, AI & Analytics Portfolio
+# 🚀 Data Science, AI & Analytics Portfolio
 
 ![Status](https://img.shields.io/badge/Status-Open%20to%20Work-success)
 ![Focus](https://img.shields.io/badge/Focus-GenAI%20%7C%20Finance%20%7C%20Strategy-blue)
@@ -61,6 +61,11 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 | **[02. Real-Time Fraud Detection](./02_Banking_Fraud_Detection_RealTime)** | Machine Learning Power BI | A real-time monitoring system detecting anomalies and fraudulent transactions in banking streams. |
 | **[03. Credit Risk Scorecards](./03_Banking_Credit_Risk_Scorecards)** | Python Binning Scorecard | Developing industry-standard credit scorecards (WOE/IV) for lending risk assessment. |
 | **[04. Actuarial Risk & Pricing](./04_Insurance_Actuarial_Risk_Pricing)** | Actuarial Science Python | Life insurance pricing model analyzing mortality risk, smoker penalties, and lapse rates. |
+
+### 🎓 Education & Higher Ed
+| Project | Tech Stack | Description |
+| :--- | :--- | :--- |
+| **[28. FRIS: Student Loan Default Predictor](./28_FRIS_Predictive_Risk_Framework)** | scikit-learn FastAPI Docker | A production ML framework predicting federal student loan default risk (AUC 0.772). Deployed on Hugging Face Spaces with multi-SIS support (Banner, Workday, PeopleSoft, Colleague). Key finding: IDR borrowers default at 13.7× lower rates. |
 
 ### 🏥 Healthcare & Life Sciences
 | Project | Tech Stack | Description |
