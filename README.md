@@ -65,7 +65,7 @@ My portfolio demonstrates a "Full-Stack AI" approach: from engineering real-time
 ### 🎓 Education & Higher Ed
 | Project | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **[28. FRIS: Student Loan Default Predictor](./28_FRIS_Predictive_Risk_Framework)** | scikit-learn FastAPI Docker | A production ML framework predicting federal student loan default risk (AUC 0.772). Deployed on Hugging Face Spaces with multi-SIS support (Banner, Workday, PeopleSoft, Colleague). Key finding: IDR borrowers default at 13.7× lower rates. |
+| **[28. FRIS: Student Loan Default Predictor](./28_FRIS_Predictive_Risk_Framework)** | scikit-learn FastAPI Docker | An open-source ML framework for federal student loan default-risk prediction, validated on 1,302 de-identified institutional borrowers (best AUC 0.772, five-fold CV). Publicly deployed on Hugging Face Spaces with multi-SIS adapters (Banner, Workday, PeopleSoft, Colleague). Key finding: borrowers on income-driven repayment defaulted at ~0.7% versus ~9.6%. |
 
 ### 🏥 Healthcare & Life Sciences
 | Project | Tech Stack | Description |
